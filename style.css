@@ -1,0 +1,56 @@
+p {
+  font-size: 20px;
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.pimg1 {
+  background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/e2/f8/43/longest-sea-beach-in.jpg?w=1100&h=1100&s=1");
+  min-height: 400px;
+}
+.pimg2 {
+  background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/bd/d1/fc/sajek.jpg?w=1200&h=-1&s=1");
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url("https://cdn.daily-sun.com/public/news_images/2024/11/04/1730738909-a4b5786737b9cbf28bd60a91d245c941.jpg");
+  min-height: 400px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  opacity: 0.7;
+}
+
+@media (max-width: 568px) {
+  .pimg1 .pimg2 .pimg3 {
+    background-attachment: scroll;
+  }
+}
