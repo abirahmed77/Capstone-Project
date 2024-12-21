@@ -5,14 +5,14 @@ p {
 .pimg2,
 .pimg3 {
   position: relative;
-  opacity: 0.7;
+  opacity: 0;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 .pimg1 {
-  background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/e2/f8/43/longest-sea-beach-in.jpg?w=1100&h=1100&s=1");
+  background-image: url("https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.jpg?s=612x612&w=0&k=20&c=jlYes8ZfnCmD0lLn-vKvzQoKXrWaEcVypHnB5MuO-g8=");
   min-height: 400px;
 }
 .pimg2 {
