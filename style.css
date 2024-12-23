@@ -1,11 +1,11 @@
-p {
+p {url(http://127.0.0.1:3000/gallery.html)
   font-size: 20px;
 }
 .pimg1,
 .pimg2,
 .pimg3 {
   position: relative;
-  opacity: 0;
+  opacity: 0.7;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -16,11 +16,11 @@ p {
   min-height: 400px;
 }
 .pimg2 {
-  background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/bd/d1/fc/sajek.jpg?w=1200&h=-1&s=1");
+  background-image: url("https://st3.depositphotos.com/3591429/18305/i/450/depositphotos_183057156-stock-photo-sports-tools-green-grass-concept.jpg");
   min-height: 400px;
 }
 .pimg3 {
-  background-image: url("https://cdn.daily-sun.com/public/news_images/2024/11/04/1730738909-a4b5786737b9cbf28bd60a91d245c941.jpg");
+  background-image: url("");
   min-height: 400px;
 }
 
