@@ -12,18 +12,13 @@ p {
   background-attachment: fixed;
 }
 .pimg1 {
-  background-image: url("https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.jpg?s=612x612&w=0&k=20&c=jlYes8ZfnCmD0lLn-vKvzQoKXrWaEcVypHnB5MuO-g8=");
+  background-image: url("https://media.istockphoto.com/id/825493738/photo/searching-for-the-right-person-concept-stand-out-from-the-crowd-and-different-concept.jpg?s=612x612&w=0&k=20&c=e-RxkOchFIhHtgRoGA2mkhvj44AG0KzobFrwe9vkaO8=");
   min-height: 400px;
 }
 .pimg2 {
-  background-image: url("https://st3.depositphotos.com/3591429/18305/i/450/depositphotos_183057156-stock-photo-sports-tools-green-grass-concept.jpg");
+  background-image: url("https://calmatters.org/wp-content/uploads/2022/06/061522_COVID_CLCM_School_Illustration_JH_CM_01.jpg");
   min-height: 400px;
 }
-.pimg3 {
-  background-image: url("");
-  min-height: 400px;
-}
-
 .section {
   text-align: center;
   padding: 50px 80px;
