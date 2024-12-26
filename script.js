@@ -19,3 +19,23 @@ function carousel() {
   setTimeout(carousel, 2000);
 }
 carousel();
+
+function carousel2() {
+  var i;
+  var x = document.getElementsByClassName("myslides2");
+
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+
+  index++;
+
+  if (index > x.length) {
+    index = 1;
+  }
+
+  x[index - 1].style.display = "block";
+
+  setTimeout(carousel2, 2000);
+}
+carousel2();
